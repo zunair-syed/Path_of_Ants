@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zunair.syed.pathofants"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- This is how we comment in XML -->
+
+
+    <!-- Below support screen tag allows this app to run on any device including tablets (since we handle picture streching from java code) -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Application tag is our main tag, and is where our application starts
+    	 We have different activities in our application which is like different tabs to a window. 
+    	 Each activity has a java class name and requires a label (not sure about this though)
+    	 Each activity has an intent filter
+    	 Intent Filter is like which action and what type of action we want to launch
+    	 action android:name will indicate which java file or xml layout file we are directing to
+    	 category will declare which type of intent this is. (first one is launcher, and after that it's default)    	 
+     -->
+     
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainGame"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="zunair.syed.pathofants.MAINGAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
