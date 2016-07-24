@@ -6,7 +6,7 @@ Developed an Android Game Application on the Android platform. This game was dev
 ###Play This Game###
 Play this game at <a href="https://play.google.com/store/apps/details?id=zunair.syed.pathofants">Google Play Store</a>, look at screenshots, and read the reviews. Or simply look at videos, and screenshots on my <a href="https://ece.uwaterloo.ca/~zu2syed/projects.html">Personal Website Projects Page</a>
 ###Screenshots###
-<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/pathofantspic1.png" />&nbsp;
-<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/pathofantspic2.png" />&nbsp;
-<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/pathofantspic3.png" />&nbsp;
-<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/pathofantspic4.png" />&nbsp;
+<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/old_website/pathofantspic1.png" />&nbsp;
+<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/old_website/pathofantspic2.png" />&nbsp;
+<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/old_website/pathofantspic3.png" />&nbsp;
+<img width="24%" src="https://ece.uwaterloo.ca/~zu2syed/old_website/pathofantspic4.png" />&nbsp;
